@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161B21"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DAF1F6"
+        android:text="EXIT"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="363dp"
+        android:layout_height="132dp"
+        android:layout_alignStart="@+id/editName"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-51dp"
+        android:layout_marginLeft="-51dp"
+        android:layout_marginTop="67dp"
+        android:text="Welcome IT Literacy Level Upgrader"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#DDF306"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="-17dp"
+        android:src="@drawable/white" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/editName"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginBottom="21dp"
+        android:background="#DAF1F6"
+        android:text="Start"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="12"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="163dp"
+        android:background="#DAF1F6"
+        android:text="About"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="89dp"
+        android:background="#DAF1F6"
+        android:text="Help"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+</RelativeLayout>

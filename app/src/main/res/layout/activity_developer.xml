@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243665"
+    tools:context=".DeveloperActivity">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginBottom="39dp"
+        android:background="#DAF1F6"
+        android:text="Back"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="45dp"
+        android:text="About Us"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#DDF306"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="201dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="-123dp"
+        android:layout_marginRight="-123dp"
+        android:gravity="center"
+        android:text="IT Literacy Level Upgrader An Android application allows users to have a quiz experience using their Android mobile.
+This approach navigates to some knowledge about programming languages related to information technology.
+This application can be used by any age group and does not contain any harmful or inappropriate content."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#DDF306"
+        android:textSize="21dp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/white" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="B H Dashini Dilsha Shaneshani De Silva"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="845dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-134dp"
+        android:text="Developer "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#F0F1E7"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="35dp"
+        android:text="dilshadesilva97@gmail.com "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="13dp"
+        android:text="S22014577"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-185dp"
+        android:text="Contact for more details about IT Literacy Level Upgrader"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="-72dp"
+        android:src="@drawable/developer" />
+
+</RelativeLayout>

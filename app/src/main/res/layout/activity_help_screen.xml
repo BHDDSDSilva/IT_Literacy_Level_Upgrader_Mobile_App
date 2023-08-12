@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243665"
+    tools:context=".HelpActivity">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="450dp"
+        android:text="Contact for more details about IT Literacy Level Upgrader"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="38dp"
+
+        android:src="@drawable/white" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginBottom="38dp"
+        android:background="#DAF1F6"
+        android:text="Back"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="45dp"
+        android:text="Help"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#DDF306"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="385dp"
+        android:text="- From Android 6.0 to Android 13 can use this. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="155dp"
+        android:text="- Yes. This App can used offline "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:text="4. In which android versions this app can run? "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="310dp"
+        android:text="- Yes. ILLU can used by any age group. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="275dp"
+        android:text="3. Is this app good for children? "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="235dp"
+        android:text="- Yes. This app is for android users. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:text="2. Does this can app run on android phones? "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:text="1. Does this App can be use offline? "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="800dp" />
+
+</RelativeLayout>
